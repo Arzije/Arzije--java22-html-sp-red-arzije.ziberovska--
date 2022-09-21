@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    color: aliceblue;
+}
+
+body, html{
+    height: 100%;
+    background-color: #d7c9bb;
+}
+
+
+/* Projekt 1: Kaffe */
+.bg-img-coffee{
+    background-image: url("/images/img-bg-coffee.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Projekt 2: Natur */
+.bg-img-nature{
+    background-image: url("/images/img-bg-nature.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Projekt 3: Motion */
+.bg-img-motion{
+    background-image: url("/images/img-bg-motion.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Projekt 4: Skönhet */
+.bg-img-skonhet{
+    background-image: url("/images/img-bg-skonhet.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-container{
+    display: flex;
+    border: solid 4px green;
+    
+}
+/* .item{ 
+    align-self: flex-end;
+ } */
+
+.nav-item{
+    padding: 50px;
+    /* position: fixed; */
+    font-size: larger;
+    font-family: 'Dancing Script', cursive;
+    flex-basis: 120%;
+} 
+ 
+.article-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.flex-item{
+    border: solid white 4px;
+    color: black;
+    padding-top: 40px;
+    padding: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-basis: 35%;
+    text-align:justify;
+}
+
+p, h3{
+    
+    color: rgb(194, 179, 141)
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background-color: DarkSalmon;
+    color: white;
+    margin-top: 50px;
+}
+
+
+/* 
+
+text-align: center;
+
+.article-container{
+    border: solid 2px black;
+    margin: 40px;
+    padding: 30px;
+    padding-right: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background-color: DarkSalmon;
+    color: white;
+    margin-top: 50px;
+}
+
+
+
+
+/* 
+img{
+    width: 100%;
+    max-width: 200px;
+}
+
+/*  
+.header-container{
+    border: solid 2px black;
+}
+
+/*  
+
+body, html{
+    height: 100%;
+}
+
+.bg-img{
+    background-image: url("/images/bg-img.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
